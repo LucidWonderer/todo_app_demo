@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List 2023 with LocalStorage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <!-- End of Fonts -->
+</head>
+
+<body>
+    <main class="app">
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Task List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="privacy.html">Privacy</a>
+            </li>
+        </ul>
+
+        <h2>About Task List 2023 with LocalStorage</h2>
+        <section class="privacy">
+
+            <p>This task list application does not save any information onto the cloud (or online), but instead uses
+                your local browser (like Firefox or Chrome) via HTML5 localStorage to save username and task data for
+                later retrieval.
+
+                <br>
+
+                The benefit is that your information remains private to your device, and is never harvested, collected,
+                shared or sold with any party anywhere in person or virtually.
+            </p>
+            <p>The shortcoming is that (in its current configuration) your information is only available to you in the
+                browser you created the task in, and it does not go from one browser to another, or from one
+                laptop/phone you use to another. In addition, if your browser or device fails, there is no possibility
+                of remote data recovery or retrieval.</p>
+        </section>
+    </main>
+
+    <footer>
+        <article><br />
+            <hr />
+            <p id="footer_here"></p>
+        </article>
+    </footer>
+    <!-- JS Import -->
+    <script src="./js/main.js"></script>
+    <!-- End of JS Import -->
+</body>
+
+</html>
